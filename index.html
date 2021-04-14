@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kyiv -> Ankara -> Goreme with MapBox</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/app.js" defer></script>
+    <script src="./assets/js/route.js" defer></script>
+
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="features">
+        <section id="kyiv" class="active">
+            <h3>Киев, место начала всего.</h3>
+            <p>
+                Киев, прохладный будний вечер четверга.
+                Собираясь в путь так до конца и не осознаешь что уже пора ехать, точнее лететь.
+                Лететь отдыхать в Турцию, снова в новую страну, новые города. Отдыхать и немного страдать, время такое,
+                время страданий. Насупив маску на лицо, можно с открытым носом, все же понимают что это условность,
+                выдвигаемся в Борисполь.
+                Немного поиграв в игру "Мы у таблички с расписанием", коих на 3м этаже терминала D примерно 3 штуки,
+                присоеденились к нашей группе боевых пенсионеров.<br>
+                Вылет, пот, слезы, О! А то не Николаев внизу светится огнями ночными?
+            </p>
+        </section>
+        <section id="ankara">
+            <h3>Анкара, деловая столица и козы на дорогах</h3>
+            <p>
+                По первым прогулкам по Анкаре так и не скажешь что это столица, узкие улицы, аккуратные здания не выше
+                4-5 этажей.
+                Впечатления от города сугубо положительные, особенно в местах близких к Аниткабир-у (Местный мавзолей
+                бывшего президента), ныне инстаплэйс для дам и место проведения монотонных часов часовыми.
+            </p>
+            <div class="tile-gallery">
+                <div class="tile-gallery__col">
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile tile-gallery__tile--vertical">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/1.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile-gallery__col">
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/2.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/3.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>
+                Спустя пол часа можно выдвигаться в старый город, слава Аллаху в Анкаре очень удобный сервис такси,
+                все
+                в одном Нью-Йоркском желтом стиле, с кнопками вызова на каждом перекрестке и точками обитания
+                таксистов
+                на оживленных переулках. Так вот, старый город, город сувениров, потрепанных котов и "Хэнд мэйд,
+                хэйн
+                мэйд, донт пасс бай - бай!". Ну зато исторические фасады и здания у них хранятся хорошо, да и с
+                реставрацией они не затягивают.
+                На высоких точках ветренно, никогда не мог подумать что я замерзну в Турции.
+                Пора ехать в отель, греться от кондиционера в семейном номере и пить чай конечно же.
+            </p>
+
+            <div class="tile-gallery">
+                <div class="tile-gallery__col">
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/4.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/5.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile-gallery__col">
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile tile-gallery__tile--vertical">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/6.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                Вечером смотрящие на тебя орешки из мини бара в отеле не сулят ничего хорошего, пора идти в центр на
+                поиски пропитания.
+                Заглядывая в темные, пустые от туристов рестораны в поисках пропитания, усугубляя все вопросом на
+                индусском английском "Have any vegan food?" и последующем взгляде кассирши, полного апатии,
+                указывающем
+                на позицию в меню "Сыр во фритюре", я так понимаю так и становятся сыроедами?
+                Собакам местный кебап и донер явно по вкусу, выглядят они вальяжно-довольными от уличной жизни и
+                голос
+                на прохожих не повышают.
+                Время запасаться припасами в местном супер-маркете, оценить по достоинству кефир и двигать дальше -
+                в
+                Гьорэмэ.
+            </p>
+        </section>
+        <section id="goreme">
+            <h3>Гьорэмэ, Гереме, или просто Каппадокия</h3>
+            <p>
+                При подъезде к городу ничего не предвещает,
+                буд-то на маршрутке в Очаков едешь, но при остановке на обзорной площадке все становится ясно.
+                Скалы каких не видел никогда, масштабы космические, чувство что эту область построили для съемки фильма
+                и так и оставили. Панорама сумасшедших муравейников для летающих людей с хоботками для чаепитий, в
+                будущем мы посетим некоторе количество долин с красивыми названиями, но такого эффекта как впервые - уже
+                не будет, особенно долина голубей - она отстой.
+                Приезжаем в совсем небольшой городок приятного вида, уже чувство что тут туризм, не деловые дела и суета
+                дорог Анкары.
+                <br>Муэдзин призывает на утренний намаз.<br>
+            </p>
+
+            <div class="tile-gallery">
+                <div class="tile-gallery__col">
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile tile-gallery__tile--vertical">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/7.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile-gallery__col">
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/8.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/9.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                Не смотря на то что нам не удалось полетать на воздушных шарах, проснуться рано утром и проехаться на
+                место запуска, посмотреть как разворачивают шары, как готовят корзины, как это все происходит вокруг
+                тебя в 20 местах одновременно, это тоже стоит того.
+                <br>Муэдзин призывает на дневной намаз.<br>
+                Эмоции от катания на квадроциклах зависят только от ваших рук и безумия. Можно ездить пенионерски,
+                тактика которой придерживался я, а можно ураганить как местные - как поступила особа из нашей группы,
+                эффектно улетев на трассе в кювет и перевернувшись вместе с пассажиром, у коего будут теперь
+                воспоминания на всю жизнь.
+                <br>Муэдзин призывает на вечерний намаз.<br>
+            </p>
+
+            <div class="tile-gallery">
+                <div class="tile-gallery__col">
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/10.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/11.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile-gallery__col">
+                    <div class="tile-gallery__row">
+                        <div class="tile-gallery__tile tile-gallery__tile--vertical">
+                            <div class="tile-gallery__figure">
+                                <img src="./assets/images/12.jpg" class="tile-gallery__image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                Во время локдауна уж тяжковато найти место для обеда, но турки тоже хотят работать, так что мы группой в
+                9 человек пошли "в туалет" случайно свернув в сторону зала и столов ждущих наших заказов.
+                Айран, хлеб с маслом и миксэд спайсэс, овощи гриль, салаты с фетой - все хорошо, но гранатовый сок и
+                мороженное на улице - всяко лучше. Уличная еда всегда вкуснее, это как походная еда на костре, ты не
+                просто ешь в окружении декораций заботливо расставленных для тебя и обставленных стилистически, а идешь
+                на вызов самой природе, станет ли тебе плохо от очередного стакана гранатового сока? Смогу ли я дышать
+                забираясь в горку и одновременно поглащать фисташково-шоколадное мороженное спеша на закат? Сможет ли
+                этот айран унять жжение адского пламени внутри меня от съеденного?
+                <br>Вопросы вопросами, а ответ един - Муэдзин призывает на ночной намаз.<br>
+                Люблю местное телевидиние и вкусняшки из супермаркета, ничего не понятно, но очень вкусно.<br>
+                Время собираться домой, смаковать воспоминания и думать о следующей поездке.<br><br>Всем Чай! Или как
+                говорится гулю гулю!
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>
